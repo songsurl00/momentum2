@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#login-form {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.btn {
+    width: 60px;
+    height: 25px;
+    border: 0;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: #e7e7e7;;
+}
+
+#greeting {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'EarlyFontDiary';
+    font-weight: 600;
+}
+
+#clock {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'EarlyFontDiary';
+    font-size: 75px;
+    font-weight: bold;
+}
+
+#logout {
+    width: 80px;
+    height: 25px;
+    border: 0;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#logout:hover {
+    background-color: #e7e7e7;;
+}
+
+#todo-form {
+    position: absolute;
+    top: 60.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background: transparent;
+}
+
+#todo-list {
+    position: absolute;
+    top: 63%;
+    left: 50%;  
+    transform: translate(-50%);
+    font-family: 'EarlyFontDiary';
+    font-size: 20px;
+}
+
+#quote {
+    position: absolute;
+    top: 93%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    font-family: 'EarlyFontDiary';
+}
+
+.quote {
+    display: block;
+}
+
+.author {
+    display: block;
+}
+
+#weather {
+    float: right;
+    font-family: 'EarlyFontDiary';
+    font-size: 20px;
+}
+
+.city {
+    display: block;
+}
+
+.weather {
+    display: block;
+}
